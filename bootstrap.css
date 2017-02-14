@@ -266,7 +266,7 @@ th {
   }
   .table td,
   .table th {
-    background-color: #ddd !important;
+    background-color: #fff !important;
   }
   .table-bordered th,
   .table-bordered td {
@@ -1098,7 +1098,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #FFFF66;
+  color: #333;
   background-color: #fff;
 }
 input,
