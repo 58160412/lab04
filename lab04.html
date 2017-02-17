@@ -86,9 +86,10 @@
             </div>
             <div class="col-md-5">
                 <h3>First Example of JavaScript </h3>
-                <p><pre><h4>คำอธิบาย </h4>
-     9 : พิมพ์ข้อความ Last updated on ต่อด้วย
-          วันที่และเวลาอัตเดทไฟล์ล่าสุด
+                <p><pre><h4></h4>
+     11 : comment
+     12 : พิมพ์ข้อความ Last updated on ต่อด้วยวันและเวลาที่แก้ไขครั้งล่าสุด
+     13 : comment
                 </pre></p1>
                <a class="btn btn-primary" href="http://angsila.cs.buu.ac.th/~58160412/887371/lab04/js01.html">Run JavaScript01</a>
                <br>
@@ -115,13 +116,11 @@
             </div>
             <div class="col-md-5">
                 <h3>Another Example of JavaScript </h3>
-                <p><pre><h4>คำอธิบาย </h4>
-     8 : พิมพ์ข้อความ Factorial Table ในแท็ก h1 
-     9 : ให้ตัวแปร i = 1, fact = 1 ให้วนลูป 9 รอบ 
-         กำหนดให้ค่า i เพิ่มรอบละ 1, 
-         กำหนดให้ตัวแปร fact = fact*i 
-    10 : พิมพ์ค่าตัวแปร i ต่อด้วยข้อความ ! = และต่อด้วยค่าตัวแปร fact 
-    11 : พิมพ์คำสั่งขึ้นบรรทัดใหม่
+                <p><pre><h4></h4>
+     11 : พิมพ์สตริง &lt;h1&gt;Factorials Table&lt;/h1&gt;
+     12 : วนลูป 9 รอบ และกำหนดค่าของตัวแปร fact = fact * i
+     13 : พิมพ์ค่าของตัวแปร i ต่อด้วย != และค่าของตัวแปร fact
+     14 : พิมพ์ข้อความ &lt;br&gt;
                 </pre></p1>
                 <a class="btn btn-primary" href="http://angsila.cs.buu.ac.th/~58160412/887371/lab04/js02.html">Run JavaScript02</a>
                <br>
@@ -150,10 +149,8 @@
             </div>
             <div class="col-md-5">
                 <h3>Handling Events Example </h3>
-                <pre><h4>คำอธิบาย </h4>
-  8,9 : เป็นการสร้างปุ่ม ชื่อ Click me และเมื่อกดปุ่ม Click me 
-        จะเรียกฟังก์ชั่น alert ทำให้แสดงกล่องตอบโต้ 
-        มีข้อความแสดงว่า "You click me"</p></pre>
+                <pre><h4></h4>
+  11: สร้างปุ่มแสดงข้อความบนปุ่มว่า Click me เมื่อคลิกจะแสดงหน้าต่าง Pop up แสดงข้อความว่า You clicked me</p></pre>
                <a class="btn btn-primary" href="http://angsila.cs.buu.ac.th/~58160412/887371/lab04/js03.html">Run JavaScript03</a>
                <br>
                <br>
@@ -176,11 +173,11 @@
             </div>
             <div class="col-md-5">
                 <h3>Example using new </h3>
-                <p><pre><h4>คำอธิบาย </h4>
-     5 : ประกาศฟังก์ชั่นชื่อ outputDate()
-     6 : ตัวแปร d เก็บค่าวันที่และเวลา
-     7 : พิมพ์ข้อความ d.toLocaleString() คือการเรียกวันที่และเวลา ปัจจุบันของเครื่องคอมพิวเตอร์
- 13,14 : เรียกใช้ฟังก์ชั่น outputData() จะพิมพ์วันที่และเวลาปัจจุบันของเครื่องคอมพิวเตอร์
+                <p><pre><h4></h4>
+     7 : ประกาศฟังก์ชัน outputDate
+     8 : สร้าง object ของ Date ในตัวแปร d
+     9 : พิมพ์ค่าของตัวแปร d ที่เปลี่ยนจากวันเวลาให้อยู่ในรูปของสตริง
+     17 : เรียกใช้ฟังก์ชัน outputDate
                 </pre></p1>
                 <a class="btn btn-primary" href="http://angsila.cs.buu.ac.th/~58160412/887371/lab04/js02.html">Run JavaScript04</a>
                <br>
@@ -210,23 +207,17 @@
             </div>
             <div class="col-md-5">
                 <h3>Example of alert, confirm, prompt </h3>
-                <p><pre><h4>คำอธิบาย </h4>
- 5 : ประกาศฟังก์ชั่นชื่อ alertUser()
- 6 : ฟังก์ชั่น alert เก็บข้อความ"An alert box contains an exclamation mark"
- 8 : ประกาศฟังก์ชั่นชื่อ confirmUser()
- 9 : ตัวแปร msg เก็บข้อความ"Please confirm that you want" และ "to test another button?"
-10 : ตวรจสอบการกดปุ่มต่อตัวแปร msg
-11 : ถ้ากดปุ่ม Ok จะขึ้นหน้าใหม่แสดงข้อความ "You selected OK"
-13 : ถ้ากดปุ่ม Cancel จะขึ้นหน้าใหม่แสดงข้อความ "You selected Cancel"
-15 : ประกาศฟังก์ชั่นชื่อ promptUser()
-16 : ตัวแปร namel เก็บฟังก์ชั่น prompt เก็บข้อความ "What is your name?" และ " " ---> (ค่า String ว่าง)
-17 : พิมพ์ข้อความ "welcome to this page" ใน h2 และต่อด้วยตัวแปร namel
-24 : เป็นการสร้างปุ่ม ชื่อ Click here to test alert() และเมื่อกดปุ่ม Click here to test alert()
- จะเรียกฟังก์ชั่น alertUser() จะแสดงกล่องตอบโต้ มีข้อความแสดงว่า "An alert box contains an exclamation mark"
-25 : เป็นการสร้างปุ่ม ชื่อ Click here to test confirm() และเมื่อกดปุ่ม Click here to test confirm() จะเรียกฟังก์ชั่น confirmUser() จะแสดงกล่องตอบโต้ มีข้อความแสดงว่า "please confirm that you want" และ "to test another button?" 
-ถ้ากดปุ่ม Ok จะขึ้นหน้าใหม่แสดงข้อความ "You selected OK"
-ถ้ากดปุ่ม Cancel จะขึ้นหน้าใหม่แสดงข้อความ "You selected Cancel"
-26 : เป็นการสร้างปุ่ม ชื่อ Click here to test prompt() และเมื่อกดปุ่ม Click here to test prompt() จะเรียกฟังก์ชั่น promptUser() จะแสดงกล่องตอบโต้ มีข้อความแสดงว่า "What is your name?" และให้ใส่ชื่อลงไปช่องว่าง ถ้ากดปุ่ม Ok จะขึ้นหน้าใหม่แสดงข้อความ "welcome to this page" ตามด้วยชื่อที่ใส่
+                <p><pre><h4></h4>
+ 7 : ประกาศฟังก์ชัน alertUser
+ 8 : แสดง Pop up แสดงข้อความว่า An alert box contains an exclamation mark
+11 : ประกาศฟังก์ชัน confirmUser
+12,13 : ประกาศตัวแปรเก็บสตริง please confirm that you want to test another button?
+14 : เงื่อนไขหน้าต่าง Pop up ให้ยืนยัน ตกลง หรือ ยกเลิก
+15 : ถ้าใช่ให้พิมพ์ข้อความ &lt;h2&gt;You selected OK&lt;/h2&gt;
+16 : ถ้าไม่ใช่ให้พิมพ์ข้อความ &lt;h2&gt;You selected Cancel&lt;/h2&gt;
+20 : ประกาศฟังก์ชัน promptUser
+21 : ให้ตัวแปร name1 เก็บคำตอบจาก Pop up ที่ถามว่า What is your name?
+22 : พิมพ์สตริง &lt;h2&gt;welcome to this page รวมกับค่าของตัวแปร name1 ที่ได้ และต่อด้วย &lt;/h2&gt;
                 </pre></p1>
                 <a class="btn btn-primary" href="http://angsila.cs.buu.ac.th/~58160412/887371/lab04/js02.html">Run JavaScript05</a>
                <br>
@@ -270,11 +261,11 @@ Welcome to this page<br>
             </div>
             <div class="col-md-5">
                 <h3>Check Browser </h3>
-                <p><pre><h4>คำอธิบาย </h4>
- 7 : ขึ้นบรรทัด และพิมพ์ข้อความ "This browser is" และ "Netscape" (ชื่อ Browser)
- 8 : ขึ้นบรรทัด และพิมพ์ข้อความ "Version" และเรียกคำสั่ง navigator.appVersion (version ของ netscape)
- 9 : parseFloat (การแปลงค่า string หรือตัวแปรให้เป็น Number) ตรวจสอบว่า navigator.appVersion มีค่ามากกว่าหรือเท่ากับ 4 หรือไม่
-10 : ถ้าเป็นจริง จะขึ้นบรรทัดใหม่ และพิมพ์ข้อความ "You have an up-to-date browser"
+                <p><pre><h4></h4>
+ 10 : พิมพ์สตริง &lt;br&gt; This browser is ตามด้วยชื่อ Browser ที่ใช้
+ 11 : พิมพ์สตริง &lt;br&gt; Version ตามด้วยเวอร์ชันของ Browser
+ 12 : เป็นการเช็คเงื่อนไขว่าถ้าเมื่อแปลงเวอร์ชันของ Browser เป็นทศนิยมแล้วมีค่ามากกว่าหรือเท่ากับ 4 หรือไม่
+ 13 : ถ้าใช่ให้พิมพ์ข้อความ &lt;br&gt; You have an up-to-date browser
                 </pre></p1>
                 <a class="btn btn-primary" href="http://angsila.cs.buu.ac.th/~58160412/887371/lab04/js02.html">Run JavaScript06</a>
                <br>
@@ -301,18 +292,18 @@ if(parseFloat(navigator.appVersion)>= 4){
             </div>
             <div class="col-md-5">
                 <h3>re-direct based upon window size</h3>
-                <p><pre><h4>คำอธิบาย </h4>
- 8: ประกาศฟังก์ชั่น windowHeight
- 9: ตรวจสอบว่าเป็น Browser IE หรือไม่
-10: ถ้าตรงเงื่อนไขให้คืนค่าความสูงหน้าจอกลับมา
-11: ตรวจสอบว่าเป็น Browser Netscape หรือไม่
-12: ถ้าตรงเงื่อนให้คืนค่าความสูงหน้าจอกลับมา
-13: ถ้าไม่ตรงเงื่อนไข
-14: ให้คืนค่า 0 กลับมา
-17: ตรวจสอบว่าความสูงหน้าจอมากกว่าหรือเท่ากับ 300 หรือไม่
-18: ถ้าตรงเงื่อนไขให้ลิ้งค์ไปหน้า lab04
-19: ถ้าไม่ตรงเงื่อนไข
-20: ให้ลิ้งค์ไปหน้า http://angsila.cs.buu.ac.th/~58160641/887371/lab04/
+                <p><pre><h4></h4>
+ 10 : ประกาศฟังก์ชัน windowHeight
+ 11 : ตรวจสอบว่าเป็น Browser IE หรือไม่
+ 12 : ถ้าใช่ให้คืนค่าความสูงหน้าจอกลับมา
+ 13 : ตรวจสอบว่าเป็น Browser Netscape หรือไม่
+ 14 : ถ้าใช่ให้คืนค่าความสูงหน้าจอกลับมา
+ 15 : ถ้าไม่ใช่
+ 16 : ให้คืนค่า 0 กลับมา
+ 19 : ตรวจสอบว่าความสูงหน้าจอมากกว่าหรือเท่ากับ 300 หรือไม่
+ 20 : ถ้าใช่ให้ลิ้งค์ไปหน้า lab04.html
+ 21 : ถ้าไม่ใช่
+ 22 : ให้ลิ้งค์ไปหน้า http://angsila.cs.buu.ac.th/~58160412/887371/lab04/
                 </pre></p1>
                 <a class="btn btn-primary" href="http://angsila.cs.buu.ac.th/~58160412/887371/lab04/js07.html">Run JavaScript07</a>
                <br>
@@ -334,21 +325,17 @@ if(parseFloat(navigator.appVersion)>= 4){
             </div>
             <div class="col-md-5">
                 <h3>Image rollovert </h3>
-                <p><pre><h4>คำอธิบาย </h4>
- 4 : ประกาศฟังก์ชั่นชื่อ highlightdocs()
- 5 : ตรวจสอบ document ชนิด images (รูปภาพ)
- 5 : ถ้าจริง ให้ document.images["docs"].src = docsOn.src
- 7 : ประกาศฟังก์ชั่นชื่อ unhighlightdocs()
- 8 : ตรวจสอบ document ชนิด images (รูปภาพ)
- 8 : ถ้าจริง ให้ document.images["docs"].src = docsOff.src
-10 : ตรวจสอบ document ชนิด images (รูปภาพ)
-11 : ถ้าจริง ให้ตัวแปร docsOn เก็บค่า Images (รูปภาพ)
-12 : ตัวแปร docsOn.src เก็บไฟล์รูปภาพ ชื่อ img/p1.jpg
-13 : ถ้าจริง ให้ตัวแปร docsOff เก็บค่า Images (รูปภาพ)
-14 : ตัวแปร docsOff.src เก็บไฟล์รูปภาพ ชื่อ omg/p2.jpg
-19 : ใส่ลิงค์ www.google.com 
-20 : เมื่อเอาเคอร์เซอร์ไปบริเวณรูปภาำจะเรียกฟังก์ชั่น highlightdocs() และเมื่อกดรูปภาำจะเรียกฟังก์ชั่น unhighlightdocs()
-21 : ใส่รูปภาพไฟล์ชื่อ img/p2.jpg ตั้งชื่อว่า docs ให้มีความสูง (Height) 200, กว้าง (Width) 300 และไม่มีเส้นขอบ
+                <p><pre><h4></h4>
+ 7 : ประกาศฟังก์ชัน highlightdocs
+ 8 : ตรวจสอบ document.images
+ 9 : ให้ document.images ที่ชื่อ docs มีที่อยู่ที่ docsOn.src
+ 13 : ประกาศฟังก์ชัน unhighlightdocs
+ 14 : ให้ document.images ที่ชื่อ docs มีที่อยู่ที่ docsOff.src
+ 16 : ตรวจสอบ document.images
+ 17 : สร้าง docsOn เป็น Object Image
+ 18 : ให้ docsOn.src อยู่ที่ img/gg_color.png
+ 19 : สร้าง docsOff เป็น Object Image
+ 20 : ให้ docsOff.src อยู่ที่ img/gg_gray.png
                 </pre></p1>
                 <a class="btn btn-primary" href="http://angsila.cs.buu.ac.th/~58160412/887371/lab04/js08.html">Run JavaScript08</a>
                <br>
@@ -387,22 +374,13 @@ if(document.images){
             </div>
             <div class="col-md-5">
                 <h3>Pull-down Menu with URL Revealed </h3>
-                <p><pre><h4>คำอธิบาย </h4>
- 4 : ประกาศฟังก์ชั่นชื่อ doMoveBrowser() รับค่า form
- 5 : ให้ parent เก็บค่าที่ตั้งของลิงค์ แล้วเก็บการสร้าง form ประเภท list (รายการ) มีรายการตามฟังก์ชั่นชื่อ getSelectedValue()
- 7 : ประกาศฟังก์ชั่นชื่อ getSelectedValue()
- 8 : รีเทิร์นค่า document ชื่อ form1 ประเภท list (รายการ) ที่คำสั่ง selectedIndex กลับ 
-10 : ประกาศฟังก์ชั่นชื่อ showURL() รับค่า form
-11 : สร้าง form ประเภท TextBox (กล่องข้อความ) ให้เก็บการสร้าง form ประเภท list (รายการ) มีรายการตามฟังก์ชั่นชื่อ getSelectedValue()
-18 : สร้าง form ชื่อ form1
-19 : ประเภท list (รายการ) เรียกใช้ฟังก์ชั่นชื่อ showURL(this.form) 
-20 : รายการที่ 1 แสดงข้อความ "Where do you want to go today?"
-21 : รายการที่ 2 เก็บค่า http://www.google.com และแสดงข้อความ "Google"
-22 : รายการที่ 3 เก็บค่า http://www.buu.ac.th และแสดงข้อความ "Buu University"
-23 : รายการที่ 4 เก็บค่า http://www.informatics.buu.ac.th และแสดงข้อความ "Faculty of Informatics"
-25 : สร้างปุ่มกด ประเภท button เก็บค่า Go ถ้ากดปุ่มจะเรียกฟังก์ชั่นชื่อ doMoveBrowser(this.form)
-26 : สร้างปุ่มกด ประเภท reset เก็บค่า Reset
-27 : สร้างกล่องข้อความ ประเภท text ชื่อ TextBox และมีขนาด 40px
+                <p><pre><h4></h4>
+ 7 : ประกาศฟังก์ชัน doMoveBrowser(form) รับ form เข้ามา
+ 8 : รับค่าลิ้งค์เว็บไซต์จากฟังก์ชัน getSelectedValue เพื่อที่จะลิ้งค์ไปยังเว็บไซต์นั้น
+ 11 : ประกาศฟังก์ชัน getSelectedValue
+ 12 : คืนค่าเว็บไซต์กลับไป
+ 15 : ประกาศฟังก์ชัน showURL(form) โดยรับ form เข้ามา
+ 16 : รับค่าลิ้งค์เว็บไซต์จากฟังก์ชัน getSelectedValue มาเก็บไว้ใน Text box
                 </pre></p1>
                 <a class="btn btn-primary" href="http://angsila.cs.buu.ac.th/~58160412/887371/lab04/js09.html">Run JavaScript09</a>
                <br>
@@ -448,16 +426,15 @@ if(document.images){
             </div>
             <div class="col-md-5">
                 <h3>Change inline text Example</h3>
-                <p><pre><h4>คำอธิบาย </h4>
- 6 : ตัวแปร AR เก็บต่า Array
- 7 : ตัวแปร AR ตำแหน่งที่ 0 เก็บข้อความ "Message 1"
- 8 : ตัวแปร AR ตำแหน่งที่ 1 เก็บข้อความ "Message 2"
- 9 : ตัวแปร AR ตำแหน่งที่ 2 เก็บข้อความ "Message 3"
-10 : ตัวแปร i มีค่าเท่ากับ 0
-11 : ประกาศฟังก์ชั่น next()
-12 : ตัวแปร i เพิ่มชึ้นรอบละ 1 และหารเอาเศษกับความยาวของตัวแปร AR
-13 : ทำตามคำสั่ง document getElementById("here").innerHTML = AR[i]
-21 : เมื่อคลิกที่ข้อความ"DEFAULT" จะเรียกใช้ฟังก์ชั่น next() และจะเปลี่ยนข้อความตั้งแต่ Message 1 -3 
+                <p><pre><h4></h4>
+ 7 : สร้าง Object ชื่อ AR ในรูปแบบของ Array
+ 8 : ให้ AR[ตำแหน่งที่ 0] เก็บสตริง Hello
+ 9 : ให้ AR[ตำแหน่งที่ 1] เก็บสตริง See you
+ 10 : ให้ AR[ตำแหน่งที่ 2] เก็บสตริง Bye
+ 11 : ประกาศตัวแปร i = 0
+ 13 : ประกาศฟังก์ชัน next
+ 14 : i เก็บค่า i ที่เพิ่มค่าขึ้น 1 แล้ว หารเอาเศษกับความยาวของ Array ที่ชื่อ AR
+ 15 : นำข้อมูลใน Array มาใส่แทรกลงไปตามตำแหน่ง i ที่เพิ่มขึ้น โดย id=click (คลิก 1 ครั้ง เปลี่ยนสตริง 1 ครั้ง)
 
 
                 </pre></p1>
